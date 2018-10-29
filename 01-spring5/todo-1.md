@@ -38,6 +38,7 @@ dataSource()メソッドは、DataSourceのBeanを定義しています。
 [JdbcConfigクラス](src/main/java/com/example/persistence/config/JdbcConfig.java)は、Spring Data JDBCに関するBean定義を行うJava Configです。
 クラスに`@Configuration` を付加してJava Configであることを示してください。
 
+# 10/30 ここから
 # TODO 1-09
 Spring Data JDBCを有効化するとともに、作成したCrudRepository継承インタフェースのパッケージを指定する必要があります。
 クラスに`@EnableJdbcRepositories(basePackages = "com.example.persistence.repository")`を付加してください。

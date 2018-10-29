@@ -15,7 +15,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import javax.sql.DataSource;
 
 // TODO 1-08 Java Configであることを示すアノテーションを付加する
-
+@Configuration
 // @Repositoryで定義したリポジトリクラスのパッケージ名を指定する
 @ComponentScan(basePackages = "com.example.persistence.repository.impl")
 // TODO 1-09 CrudRepositoryを継承したインタフェースのパッケージ名を指定する
